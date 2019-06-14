@@ -29,6 +29,7 @@ BUILD_FINGERPRINT := "xiaomi/violet/violet:9/PKQ1.181203.001/9.5.30:user/release
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="violet-user 9 PKQ1.181203.001 9.5.30 release-keys" \
     PRODUCT_NAME="violet" \
-    TARGET_DEVICE="violet"
-
+    TARGET_DEVICE="violet" \
+    DEVICE_MAINTAINERS="Mithil"
+	
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
