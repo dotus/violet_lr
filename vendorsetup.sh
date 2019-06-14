@@ -1,2 +1,2 @@
-add_lunch_combo lineage_violet-eng
-add_lunch_combo lineage_violet-userdebug
+add_lunch_combo dot_violet-eng
+add_lunch_combo dot_violet-userdebug

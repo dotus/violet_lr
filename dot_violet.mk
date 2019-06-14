@@ -13,10 +13,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common Mokee stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
+
+TARGET_BOOT_ANIMATION_RES := 2160
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_violet
+PRODUCT_NAME := dot_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
