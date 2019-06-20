@@ -5,7 +5,6 @@ The Redmi Note 7 Pro (codenamed _"violet"_) are high-end mid-range smartphones f
 Xiaomi Redmi Note 7 Pro was announced and released in March 2019.
 
 # Redmi Note 7 Pro (violet)
-# -------------------------
 
 # A Big Thanks to:
 
