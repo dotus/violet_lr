@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Mokee stuff.
+# Inherit some common DotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 2160
@@ -29,7 +29,6 @@ BUILD_FINGERPRINT := "xiaomi/violet/violet:9/PKQ1.181203.001/9.5.30:user/release
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="violet-user 9 PKQ1.181203.001 9.5.30 release-keys" \
     PRODUCT_NAME="violet" \
-    TARGET_DEVICE="violet" \
-    DEVICE_MAINTAINERS="Mithil"
+    TARGET_DEVICE="violet" 
 	
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
