@@ -24,7 +24,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT := "xiaomi/violet/violet:9/PKQ1.181203.001/9.5.30:user/release-keys"
+BUILD_FINGERPRINT := google/taimen/taimen:9/PQ2A.190405.003/5310204:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="violet-user 9 PKQ1.181203.001 9.5.30 release-keys" \
